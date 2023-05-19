@@ -8,12 +8,32 @@ body {
   padding: 1rem;
 }
 
-main {
+.main {
   background: white;
   max-width: 416px;
   border-radius: 1rem;
 }
-main main img {
+.main .img {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
+}
+.main .img .main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  height: 100%;
+  width: 100%;
+}
+.main .img .main-section .h1 {
+  margin: 2rem 0 1rem 0;
+  color: hsl(223, 47%, 23%);
+}
+.main .img .main-section .h1 .descripcion {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+.main .img .main-section .h1 .descripcion .infomation {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

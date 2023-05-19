@@ -1,11 +1,35 @@
-main {
+.main {
     background: white;
     max-width: 416px;
     border-radius: 1rem;
 
-    main img {
+    .img {
         width: 100%;
         border-radius: 1rem 1rem 0 0;
+
+        .main-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 2rem;
+            height: 100%;
+            width: 100%;
+
+            .h1 {
+                margin:2rem 0 1rem 0;
+              color:$cor-neutra;
+
+              .descripcion {
+                color: $cor-terciaria;
+                text-align: center;
+
+                .infomation {
+                    display: flex;
+                }
+              }
+            }
+        }
     }
 }
 
