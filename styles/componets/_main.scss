@@ -4,6 +4,7 @@
         background: white;
     max-width: 416px;
     border-radius: 1rem;
+
     .img {
         width: 100%;
         border-radius: 1rem 1rem 0 0;
@@ -16,14 +17,17 @@
             padding: 0 2rem;
             height: 100%;
             width: 100%;
+
             .h1 {
                 margin:2rem 0 1rem 0;
               color:$cor-neutra;
             }
+
               .descripcion {                
                 color: $cor-terciaria;
                 text-align: center;
               }
+
                 .infomation {
                     display: flex;
                     align-items: center;
@@ -33,18 +37,22 @@
                     border-radius: 0.8rem;
                     padding: 1.5rem 1rem;
                     margin: 2rem 0;
+
                     .music-price {
                         display: flex;
                         align-items: center;
                     }
+
                      .svg{
                        width: 48px;
                        margin-right: 1rem;
                         }
+
                             .price {
                               display: flex;
                               flex-direction: column;
                             }
+
                                 .plans {
                                     color: $cor-secundaria;
                                     font-weight: 600;
@@ -53,6 +61,7 @@
                                      &:hover {
                                         color:$cor-neutra;
                                         text-decoration: none;
+                                        
                                      }
                                     }
                                 }
