@@ -71,6 +71,7 @@ body {
   background: hsl(245, 75%, 52%);
   color: white;
   font-weight: 600;
+  font-family: "Red Hat Display", sans-serif;
   border: none;
   width: 100%;
   padding: 1rem 0;
@@ -79,7 +80,7 @@ body {
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   transition: backgoung 0.3s;
 }
-.main .main-section .clickhover {
+.main .main-section .click:hover {
   background: #766cf1;
 }
 

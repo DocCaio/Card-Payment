@@ -1,105 +1,104 @@
-@import '../abstract/varaiveis';
+@import '../abstract/variaiveis';
 
 .main {
-        background: white;
+    background: #FFF;
     max-width: 416px;
     border-radius: 1rem;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
 
     .img {
         width: 100%;
         border-radius: 1rem 1rem 0 0;
     }
-        .main-section {
+
+    .main-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+        padding: 0 2rem;
+        height: 100%;
+        width: 100%;
+
+        .h1 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: $cor-neutra;
+        }
+        main span {
+            text-align: center;
+            color: #717FA6;
+          }
+          main strong {
+            color: #1F2E55;
+          }
+
+        .descripcion {
+            color: $cor-terciaria;
+            text-align: center;
+        }
+
+        .infomation {
             display: flex;
             align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            padding: 0 2rem;
-            height: 100%;
+            justify-content: space-between;
             width: 100%;
+            color: $cor-fundo;
+            border-radius: 0.8rem;
+            padding: 1.5rem 1rem;
+            margin: 2rem 0;
 
-            .h1 {
-                margin:2rem 0 1rem 0;
-              color:$cor-neutra;
+            .music-price {
+                display: flex;
+                align-items: center;
             }
 
-              .descripcion {                
-                color: $cor-terciaria;
-                text-align: center;
-              }
+            .svg {
+                width: 48px;
+                margin-right: 1rem;
+            }
 
-                .infomation {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    width: 100%;
-                    color: $cor-fundo;
-                    border-radius: 0.8rem;
-                    padding: 1.5rem 1rem;
-                    margin: 2rem 0;
+            .price {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+            }
 
-                    .music-price {
-                        display: flex;
-                        align-items: center;
-                    }
+            .plans {
+                color: $cor-secundaria;
+                font-weight: 600;
+                font-size: 90%;
+                transition: all 0.3s;
 
-                     .svg{
-                       width: 48px;
-                       margin-right: 1rem;
-                        }
+                &:hover {
+                    color: $cor-neutra;
+                    text-decoration: none;
 
-                            .price {
-                              display: flex;
-                              flex-direction: column;
-                            }
+                }
+            }
+        }
 
-                                .plans {
-                                    color: $cor-secundaria;
-                                    font-weight: 600;
-                                    font-size: 90%;
-                                    transition: all 0.3s;
-                                     &:hover {
-                                        color:$cor-neutra;
-                                        text-decoration: none;
-                                        
-                                     }
-                                    }
-                                }
-                                        .click {
-                                            cursor: pointer;
-                                            background: $cor-secundaria;
-                                            color: white;
-                                            font-weight: 600;
-                                            border: none;
-                                            width: 100%;
-                                            padding: 1rem 0;
-                                            border-radius: 0.8rem;
-                                            margin-bottom: 1.5rem;
-                                            box-shadow: 0px 20px 20px rgba(56 , 42 , 225 , 0.190291);
-                                            transition: backgoung 0.3s;
-                                            &hover {
-                                                background: #766cf1;
-                                            }
-                                        }
-                                    }
-                                }
-                                    
-                                    
-                                            
-                                                                               
-                                        
-                                    
-                                
-                            
-                        
-                                       
-                
-              
-            
-        
-    
+        .click {
+            cursor: pointer;
+            background: $cor-secundaria;
+            color: white;
+            font-weight: 600;
+            font-family: $fonte;
+            border: none;
+            width: 100%;
+            padding: 1rem 0;
+            border-radius: 0.8rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+            transition: backgoung 0.3s;
 
-
+            &:hover {
+                background: #766cf1;
+            }
+        }
+    }
+}
 
 #calcel-order {
     text-decoration: none;
@@ -108,8 +107,22 @@
     font-size: 0.9rem;
     margin-bottom: 2rem;
     transition: color 0.3s;
-    &hover{
+
+    &hover {
         color: $cor-neutra;
     }
 }
 
+@media screen and (max-width: 650px) {
+    body {
+     
+      background-size: 100%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    section {
+      padding: 0 3rem;
+    }
+  }
