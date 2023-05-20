@@ -7,6 +7,7 @@
     .img {
         width: 100%;
         border-radius: 1rem 1rem 0 0;
+    }
         .main-section {
             display: flex;
             align-items: center;
@@ -18,37 +19,88 @@
             .h1 {
                 margin:2rem 0 1rem 0;
               color:$cor-neutra;
+            }
               .descripcion {                
                 color: $cor-terciaria;
                 text-align: center;
+              }
                 .infomation {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     width: 100%;
                     color: $cor-fundo;
-                    border-radius: 1rem;
+                    border-radius: 0.8rem;
                     padding: 1.5rem 1rem;
                     margin: 2rem 0;
                     .music-price {
                         display: flex;
                         align-items: center;
-                        .svg{
-                            width: 48px;
-                            margin-right: 1rem;
+                    }
+                     .svg{
+                       width: 48px;
+                       margin-right: 1rem;
+                        }
                             .price {
-                                display: flex;
-                                flex-direction: column;
+                              display: flex;
+                              flex-direction: column;
+                            }
                                 .plans {
                                     color: $cor-secundaria;
+                                    font-weight: 600;
+                                    font-size: 90%;
+                                    transition: all 0.3s;
+                                     &:hover {
+                                        color:$cor-neutra;
+                                        text-decoration: none;
+                                     }
+                                    }
                                 }
-                            }
-                        }
-                    }                    
-                }
-              }
-            }
-        }
+                                        .click {
+                                            cursor: pointer;
+                                            background: $cor-secundaria;
+                                            color: white;
+                                            font-weight: 600;
+                                            border: none;
+                                            width: 100%;
+                                            padding: 1rem 0;
+                                            border-radius: 0.8rem;
+                                            margin-bottom: 1.5rem;
+                                            box-shadow: 0px 20px 20px rgba(56 , 42 , 225 , 0.190291);
+                                            transition: backgoung 0.3s;
+                                            &hover {
+                                                background: #766cf1;
+                                            }
+                                        }
+                                    }
+                                }
+                                    
+                                    
+                                            
+                                                                               
+                                        
+                                    
+                                
+                            
+                        
+                                       
+                
+              
+            
+        
+    
+
+
+
+#calcel-order {
+    text-decoration: none;
+    color: $cor-terciaria;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    transition: color 0.3s;
+    &hover{
+        color: $cor-neutra;
     }
 }
 

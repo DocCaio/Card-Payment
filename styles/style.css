@@ -17,7 +17,7 @@ body {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
 }
-.main .img .main-section {
+.main .main-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,14 +26,71 @@ body {
   height: 100%;
   width: 100%;
 }
-.main .img .main-section .h1 {
+.main .main-section .h1 {
   margin: 2rem 0 1rem 0;
   color: hsl(223, 47%, 23%);
 }
-.main .img .main-section .h1 .descripcion {
+.main .main-section .descripcion {
   color: hsl(224, 23%, 55%);
   text-align: center;
 }
-.main .img .main-section .h1 .descripcion .infomation {
+.main .main-section .infomation {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: hsl(225, 100%, 98%);
+  border-radius: 0.8rem;
+  padding: 1.5rem 1rem;
+  margin: 2rem 0;
+}
+.main .main-section .infomation .music-price {
+  display: flex;
+  align-items: center;
+}
+.main .main-section .infomation .svg {
+  width: 48px;
+  margin-right: 1rem;
+}
+.main .main-section .infomation .price {
+  display: flex;
+  flex-direction: column;
+}
+.main .main-section .infomation .plans {
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+  font-size: 90%;
+  transition: all 0.3s;
+}
+.main .main-section .infomation .plans:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+.main .main-section .click {
+  cursor: pointer;
+  background: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  transition: backgoung 0.3s;
+}
+.main .main-section .clickhover {
+  background: #766cf1;
+}
+
+#calcel-order {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  transition: color 0.3s;
+}
+#calcel-orderhover {
+  color: hsl(223, 47%, 23%);
 }/*# sourceMappingURL=style.css.map */
