@@ -3,21 +3,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $fonte;
+    font-family: 'Red Hat Display', sans-serif;
   }
-
-html {
+  
+  html {
     background: #E0E8FF;
- 
-body {
+  }
+  
+  body {
+    background: url('#');
     background-size: 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-}
+  }
 
 

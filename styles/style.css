@@ -1,97 +1,143 @@
-body {
-  background: hsl(225, 100%, 98%);
-  width: 100%;
-  height: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
 }
 
-.main {
-  background: white;
-  max-width: 416px;
-  border-radius: 1rem;
+html {
+  background: #E0E8FF;
 }
-.main .img {
+
+body {
+  background: url("#");
+  background-size: 100%;
+  background-repeat: no-repeat;
   width: 100%;
-  border-radius: 1rem 1rem 0 0;
-}
-.main .main-section {
+  height: 100vh;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main {
+  background: #FFF;
+  max-width: 416px;
+  border-radius: 1rem;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+section {
+  display: flex;
+  align-items: center;
   flex-direction: column;
   padding: 0 2rem;
   height: 100%;
   width: 100%;
 }
-.main .main-section .h1 {
-  margin: 2rem 0 1rem 0;
-  color: hsl(223, 47%, 23%);
+
+main h1 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #1F2E55;
 }
-.main .main-section .descripcion {
-  color: hsl(224, 23%, 55%);
+
+main span {
   text-align: center;
+  color: #717FA6;
 }
-.main .main-section .infomation {
+
+main strong {
+  color: #1F2E55;
+}
+
+main img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+
+main .informations {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  color: hsl(225, 100%, 98%);
-  border-radius: 0.8rem;
-  padding: 1.5rem 1rem;
   margin: 2rem 0;
+  background: #F7F9FF;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  border-radius: 0.8rem;
 }
-.main .main-section .infomation .music-price {
+
+main .informations .music-price {
   display: flex;
   align-items: center;
 }
-.main .main-section .infomation .svg {
-  width: 48px;
-  margin-right: 1rem;
-}
-.main .main-section .infomation .price {
+
+main .informations .price {
   display: flex;
   flex-direction: column;
+  margin-left: 1rem;
 }
-.main .main-section .infomation .plans {
-  color: hsl(245, 75%, 52%);
+
+main .informations a {
+  color: #382AE1;
   font-weight: 600;
   font-size: 90%;
   transition: all 0.3s;
 }
-.main .main-section .infomation .plans:hover {
-  color: hsl(223, 47%, 23%);
+
+main .informations a:hover {
+  color: #766CF1;
   text-decoration: none;
-}
-.main .main-section .click {
-  cursor: pointer;
-  background: hsl(245, 75%, 52%);
-  color: white;
-  font-weight: 600;
-  font-family: "Red Hat Display", sans-serif;
-  border: none;
-  width: 100%;
-  padding: 1rem 0;
-  border-radius: 0.8rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-  transition: backgoung 0.3s;
-}
-.main .main-section .click:hover {
-  background: #766cf1;
 }
 
-#calcel-order {
-  text-decoration: none;
-  color: hsl(224, 23%, 55%);
+main .informations img {
+  width: 3rem;
+  height: 3rem;
+}
+
+main button {
+  cursor: pointer;
+  padding: 1rem 0;
+  width: 100%;
+  background: #382AE1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 0.8rem;
+  border: none;
+  color: #FFF;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 95%;
+  margin-bottom: 1.5rem;
+  transition: background 0.3s;
+}
+
+main button:hover {
+  background: #766CF1;
+}
+
+#cancel-order {
+  text-decoration: none;
+  color: #717FA6;
+  font-weight: 600;
+  font-size: 0.95rem;
   margin-bottom: 2rem;
   transition: color 0.3s;
 }
-#calcel-orderhover {
-  color: hsl(223, 47%, 23%);
+
+#cancel-order:hover {
+  color: #1F2E55;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 980px) {
+  section {
+    padding: 0 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */
