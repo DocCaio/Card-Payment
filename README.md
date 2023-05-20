@@ -5,7 +5,7 @@
  
 ### Print
 
-<img  alt="Print-Site" height="100%" wight="100%" src="https://github.com/DocCaio/Card-Payment/blob/main/images/simples.png"/>
+<img  alt="Print-Site" height="100%" wight="100%" src="https://github.com/DocCaio/Card-Payment/blob/main/images/simple.png"/>
  
  <div> 
  
